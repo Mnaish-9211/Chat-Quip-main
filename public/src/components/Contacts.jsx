@@ -23,7 +23,7 @@ export default function Contacts({ contacts, changeChat }) {
         <Container>
           <div className="brand">
             <img src={Logo} alt="logo" />
-            <h3>snappy</h3>
+            <h3>Chat Quip</h3>
           </div>
           <div className="contacts">
             {contacts.map((contact, index) => {
@@ -68,7 +68,7 @@ const Container = styled.div`
   display: grid;
   grid-template-rows: 10% 75% 15%;
   overflow: hidden;
-  background-color: #080420;
+  background-color:#000000;
   .brand {
     display: flex;
     align-items: center;
@@ -91,13 +91,13 @@ const Container = styled.div`
     &::-webkit-scrollbar {
       width: 0.2rem;
       &-thumb {
-        background-color: #ffffff39;
+        background-color:#9a86f3;
         width: 0.1rem;
         border-radius: 1rem;
       }
     }
     .contact {
-      background-color: #ffffff34;
+      background-color:#8cfe48;
       min-height: 5rem;
       cursor: pointer;
       width: 90%;
@@ -114,7 +114,7 @@ const Container = styled.div`
       }
       .username {
         h3 {
-          color: white;
+          color:#000000;
         }
       }
     }
@@ -124,7 +124,7 @@ const Container = styled.div`
   }
 
   .current-user {
-    background-color: #0d0d30;
+    background-color:#000000;
     display: flex;
     justify-content: center;
     align-items: center;
